@@ -1,4 +1,8 @@
-@font-face{
-  font-family: another-danger;
-  src: url('assets/vgasys.otf');
+@font-face {
+  font-family: "main";
+  src: url("assets/vgasys.otf") format("opentype");
+}
+
+body {
+  font-family: "main", sans-serif;
 }
